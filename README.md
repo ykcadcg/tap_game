@@ -1,42 +1,42 @@
-# Tap the Target Game
+# Balance Ball Game
 
-A simple mobile-friendly web game where you tap moving targets to score points within a time limit.
+A motion-controlled game where you tilt your device to move a ball and avoid obstacles.
 
 ## How to Play
 
-1. Open `index.html` in your mobile browser
-2. Tap the red circular target as many times as you can
-3. Each tap gives you 1 point
-4. You have 30 seconds to get as many points as possible
-5. The game automatically restarts when time runs out
+1. Open the game on your iPhone
+2. Tap the "Start Game" button to begin
+3. Allow motion sensor access when prompted
+4. Tilt your device to move the red ball
+5. Avoid the black obstacles that move towards the ball
+6. Your score increases the longer you survive
 
 ## Features
 
-- Mobile-optimized touch controls
-- Responsive design that works on any screen size
-- 30-second time limit
+- Motion controls using device accelerometer
+- Dynamic obstacle generation
+- Collision detection
 - Score tracking
-- Automatic game reset
+- Mobile-optimized design
 
-## Running the Game
+## Requirements
 
-You can run this game in several ways:
+- iOS device with motion sensors
+- Safari browser (for best compatibility)
+- Device motion permissions enabled
 
-1. **Local Testing:**
-   - Simply open the `index.html` file in your browser
+## Playing the Game
 
-2. **Using Python's HTTP server:**
-   ```bash
-   python -m http.server 8000
-   ```
-   Then visit `http://localhost:8000` on your iPhone (make sure your phone and computer are on the same network)
-
-3. **Using any web server:**
-   - Host these files on any web server
-   - Access through the server's URL
+1. Visit the game URL on your iPhone
+2. For best experience:
+   - Add to home screen using Safari
+   - Enable motion sensors when prompted
+   - Hold your device parallel to the ground
+   - Tilt gently to control the ball
 
 ## Technical Details
 
-- Built with pure HTML5, CSS3, and JavaScript
+- Built with HTML5, CSS3, and JavaScript
+- Uses DeviceMotion API for motion controls
 - No external dependencies required
-- Touch-optimized for mobile devices 
+- Optimized for mobile devices 
